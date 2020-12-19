@@ -31,11 +31,13 @@ const Stack = createStackNavigator();
 
 import { Home } from './Components/Home'
 import { Details } from './Components/Details'
+import { Login } from './Components'
 
 const App: () => React$Node = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
+        <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Details" component={Details} />
       </Stack.Navigator>
