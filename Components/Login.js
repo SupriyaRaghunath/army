@@ -38,7 +38,6 @@ class Login extends Component {
         //     });
     }
     render() {
-
         return (
             <View style={{ justifyContent: 'center', alignItems: 'center', flex: 1, borderRadius: 10, borderWidth: 1, backgroundColor: '#C0C0C0' }}>
                 <Row
