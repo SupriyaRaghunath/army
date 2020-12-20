@@ -8,6 +8,7 @@ import { firebase } from '../src/firebase/config';
 class Login extends Component {
     state = {
         userName: '',
+
         password: ''
     }
 
